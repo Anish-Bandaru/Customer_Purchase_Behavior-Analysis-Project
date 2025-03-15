@@ -64,5 +64,5 @@ The analysis helps in understanding **top-selling products, customer segmentatio
 - **Jupyter Notebook**  
 
 ## 📂 Dataset  
-The dataset used for this analysis is available on Kaggle: [Dataset Link](<INSERT_KAGGLE_LINK_HERE>)  
+The dataset used for this analysis is available on Kaggle: [Dataset Link](https://www.kaggle.com/datasets/carrie1/ecommerce-data)  
 
