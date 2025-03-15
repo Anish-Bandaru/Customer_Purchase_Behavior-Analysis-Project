@@ -1,26 +1,26 @@
 # Customer Purchase Behavior Analysis 
 
-##  Project Overview
+## Project Overview
 This project analyzes customer purchase behavior using **Python** to derive meaningful insights and provide data-driven business recommendations.  
 The analysis helps in understanding **top-selling products, customer segmentation, sales trends, and customer retention strategies**.
 
-##  Objective
+## Objective
 - Identify **high-value customers** for targeted engagement.
 - Analyze **best-selling products** and revenue patterns.
 - Detect **sales trends** to optimize marketing and inventory strategies.
 - Develop **customer retention strategies** to minimize churn.
 
-##  Dataset
+## Dataset
 - The dataset contains **transactions from an e-commerce store**.
 - It includes details like **Invoice No, Stock Code, Description, Quantity, Invoice Date, Price, Customer ID, and Country**.
 
-##  Steps Performed
-### 1️ Data Cleaning & Preprocessing  
+## Steps Performed
+### 1. Data Cleaning & Preprocessing  
 - Removed missing values and duplicates.  
 - Handled incorrect or negative entries in quantity and price.  
 - Converted date columns to the correct format.
 
-### 2️ Exploratory Data Analysis (EDA)  
+### 2. Exploratory Data Analysis (EDA)  
 - Basic statistical summary of sales.  
 - Identified **top-selling products** based on quantity.  
 - Analyzed **total revenue by country**.  
@@ -28,13 +28,13 @@ The analysis helps in understanding **top-selling products, customer segmentatio
 - Visualized **top 10 customers by revenue** using a bar chart.  
 - Analyzed **sales distribution by weekdays**.  
 
-### 3️ Customer Segmentation (RFM Analysis)  
+### 3. Customer Segmentation (RFM Analysis)  
 - **Recency**: Days since the last purchase.  
 - **Frequency**: Number of purchases.  
 - **Monetary**: Total amount spent.  
 - Segmented customers into **Champions, Loyal Customers, Lost Customers, Potential Loyalists, and At Risk**.
 
-### 4️ Business Insights & Recommendations  
+### 4. Business Insights & Recommendations  
 **4.1 Customer Segmentation Insights & Recommendations**  
 - Majority of customers are **Lost Customers (3,643)**.  
 - Only **534 Champions** who make frequent, high-value purchases.  
@@ -52,19 +52,17 @@ The analysis helps in understanding **top-selling products, customer segmentatio
 **4.4 Customer Retention & Churn Reduction Insights & Recommendations**  
 - High churn rate observed, leading to strategies like **personalized marketing and loyalty programs**.  
 
-##  Key Insights  
-✅ **20% of customers contribute to 80% of revenue (Pareto Principle).**  
-✅ **Sales are lowest on Sundays, highest on Thursdays.**  
-✅ **Paper Craft and Storage Jars are the most sold products.**  
-✅ **Customer retention strategies can significantly improve revenue.**  
-
-##  Business Impact  
-- **Better targeting of high-value customers** through segmentation.  
-- **Improved marketing efforts** based on sales trends.  
-- **Optimized inventory management** using product purchase behavior insights.  
-- **Higher revenue retention** by reducing customer churn.  
+## Business Impact  
+- **Revenue Concentration** – A small percentage of customers (Champions & Loyal Customers) contribute a significant portion of revenue.  
+- **Sales Trends** – Sales are highest on certain weekdays (e.g., Thursdays) and lowest on others (e.g., Sundays).  
+- **Top-Selling Products** – Products like *Paper Craft* and *Storage Jars* drive high sales volume.  
+- **Customer Churn Risk** – A large number of customers fall into the "Lost Customers" category, requiring re-engagement strategies.  
+- **Geographical Revenue Distribution** – The **UK** is the highest revenue-generating country.  
 
 ## 🛠 Tools Used  
 - **Python (Pandas, Matplotlib, Seaborn, Plotly, Scikit-learn)**  
 - **Jupyter Notebook**  
+
+## 📂 Dataset  
+The dataset used for this analysis is available on Kaggle: [Dataset Link](<INSERT_KAGGLE_LINK_HERE>)  
 
